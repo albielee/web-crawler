@@ -12,8 +12,7 @@ BOT_NAME = 'webcrawler'
 SPIDER_MODULES = ['webcrawler.spiders']
 NEWSPIDER_MODULE = 'webcrawler.spiders'
 
-FEED_FORMAT="csv"
-FEED_URI="aliexpress.csv"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'webcrawler (+http://www.yourdomain.com)'
 
