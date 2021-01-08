@@ -9,7 +9,7 @@ class GoodFoodSpider(scrapy.Spider):
     start_urls = []
     url = 'https://www.bbcgoodfood.com/search/recipes?q='
     if ingredient_list is not None:
-        for i, ingredient in enumerate(ingredient_list):
+        for ingredient in ingredient_list:
             start_urls.append(url + ingredient)
             
     def parse(self, response):
