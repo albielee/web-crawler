@@ -1,3 +1,4 @@
+
 def recipe_refiner(self, recipe_list):
         #it is a new line if:
         #if has a number at the start
