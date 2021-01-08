@@ -7,10 +7,7 @@ def recipe_refiner(self, recipe_list):
         #handful
         #other measurements
         #x, to serve
-        measurements = ['tsp ','tbsp ','g ','kg ','grams ','gram ']
-        values = ['1','2','3','4','5','6','7','8','9','0','½','¼','¾','handful',
-                'a pinch','a few','a couple','a bunch']
-        all_possible_ingredient = ['onion','olive oil','garlic cloves','chilli flakes','chopped tomatoes','caster sugar','penne','cheddar','chicken breast']
+
         #recipe should be an array of tuples (ingredient, value, measurement), e.g. (oliveoil, 2, tsp)
         def contains_return(input_string, values):
             for val in values:
